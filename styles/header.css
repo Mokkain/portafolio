@@ -17,6 +17,11 @@
     height: 22px;
 }
 
+.menu__title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .menu__list{
     display: none;
 }
