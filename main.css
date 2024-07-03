@@ -1,30 +1,36 @@
 /*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
+@import url("styles/reset.css");
+@import url("styles/header.css");
 
+/*Variables de color*/
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+   --color-de-fondo: #F5F5F5;
+   --color-de-link: #000;
+   --color-de-texto: #464646;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--color-de-fondo) ;
     font-family: 'Raleway';
+    color: var(--color-de-texto);
     margin: 0;
     padding: 0;
     line-height: 1;
+    overflow-x: hidden;
 }
 ol, ul,li {
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--color-de-link);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -38,12 +44,6 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-/*Sección Menu*/
-
-section.menu{
-
-}
 
 /*Sección Title*/
 
