@@ -1,25 +1,24 @@
 /*CSS Reset / Normalize*/
 @import url("styles/reset.css");
 @import url("styles/header.css");
+@import url("styles/profile.css");
 
 /*Variables de color*/
 :root{
    --color-de-fondo: #F5F5F5;
    --color-de-link: #000;
-   --color-de-texto: #464646;
+   --color-de-texto: #000000;
 }
 
-body {
-    box-sizing: border-box;
+html, body {
     background-color: var(--color-de-fondo) ;
     font-family: 'Raleway';
     color: var(--color-de-texto);
-    margin: 0;
-    padding: 0;
     line-height: 1;
     overflow-x: hidden;
+    width: 100%;
 }
-ol, ul,li {
+ol, ul, li {
     list-style: none;
 }
 a{
@@ -45,11 +44,6 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sección Title*/
-
-section.title{
-
-}
 
 /*Sección About*/
 
