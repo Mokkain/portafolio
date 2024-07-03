@@ -8,7 +8,7 @@
     align-items: center;
     background-image: linear-gradient(to right bottom, #f5b6f3, #6b72da);
     max-width: 100%;
-    box-sizing: content-box;
+    box-sizing: border-box;
     text-align: justify;
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    align-items: center; 
+    align-items: center;
 }
 
 .title__profile {
@@ -30,7 +30,7 @@
 
 .title__container {
     display: flex;
-    height: 148px;
+    height: auto;
     gap: 16px;
     flex-direction: column;
     flex: 1;
@@ -86,15 +86,17 @@
 @media (min-width: 768px) {
 
     .title {
-        height: 210px;
-        padding: 32px;
-        align-items: flex-start;
+        height: auto;
+        padding: 20px 32px 32px 32px;
+        align-items: center;
     }
 
     .title__div {
         flex-direction: row-reverse;
         justify-content: center;
+        align-items: center;
         width: auto;
+        padding: 10px 20px;
     }
 
     .title__profile {
@@ -108,12 +110,13 @@
         gap: 30px;
         flex-direction: column;
         margin-right: 25px;
+        justify-content: center;
     }
 
     .title__bio {
         font-size: 24px;
     }
-    
+
     .title__subsection {
         font-size: 16px;
         line-height: 20px;
@@ -130,7 +133,7 @@
     .title__network__item a {
         font-size: 17px;
     }
-    
+
     .title__network__item img {
         width: 24px;
         height: 24px;
@@ -141,14 +144,14 @@
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
     .title {
-        height: 280px;
+        height: auto;
         border-radius: 15px;
         box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.8);
         width: 88%;
     }
-    
+
     .title__profile {
         border-radius: 50%;
         max-width: 208px;
@@ -157,22 +160,22 @@
         display: block;
         margin: auto;
     }
-    
+
     .title__container {
         display: flex;
-        height: 246px;
+        height: auto;
         gap: 24px;
         flex-direction: column;
         flex: 1;
         margin-right: 55px;
     }
-    
+
     .title__bio {
         font-weight: 700;
         font-size: 35px;
         line-height: 55px;
     }
-    
+
     .title__subsection {
         font-weight: 400;
         font-size: 22px;
@@ -180,31 +183,31 @@
         text-align: justify;
         word-break: break-word;
     }
-    
+
     .title__network {
         display: flex;
         justify-content: space-around;
         padding: 0;
     }
-    
+
     .title__network__item {
         margin: 0 10px;
     }
-    
+
     .title__network__item a {
         font-weight: 600;
         display: flex;
         align-items: center;
         font-size: 20px;
     }
-    
+
     .title__network__item img {
         margin-left: 5px;
         width: 34px;
         height: 34px;
         max-width: 100%;
     }
-    
+
     .title__network__item a:hover {
         text-shadow: 0 0 10px rgba(255, 255, 255, 1);
         font-size: 22px;

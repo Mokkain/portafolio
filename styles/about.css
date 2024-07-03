@@ -32,3 +32,13 @@
     word-break: break-word;
 }
 
+@media (min-width: 768px) {
+    
+    .about__paragraph{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+        word-break: break-word;
+    }
+}
