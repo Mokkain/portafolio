@@ -1,0 +1,34 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    padding: 28px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #fbfbfb, #c7caf0);
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center; 
+    width: 100%; 
+}
+
+.about__title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about__paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    word-break: break-word;
+}
+

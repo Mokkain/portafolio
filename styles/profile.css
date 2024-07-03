@@ -3,7 +3,7 @@
 .title {
     display: flex;
     height: 380px;
-    padding: 0 16px;
+    padding: 0 28px;
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(to right bottom, #f5b6f3, #6b72da);
@@ -146,7 +146,7 @@
         height: 280px;
         border-radius: 15px;
         box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.8);
-        width: 90%;
+        width: 88%;
     }
     
     .title__profile {
@@ -169,7 +169,7 @@
     
     .title__bio {
         font-weight: 700;
-        font-size: 37px;
+        font-size: 35px;
         line-height: 55px;
     }
     
