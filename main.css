@@ -5,29 +5,34 @@
 @import url("styles/about.css");
 
 /*Variables de color*/
-:root{
-   --color-de-fondo: #F5F5F5;
-   --color-de-link: #000;
-   --color-de-texto: #000000;
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-link: #000;
+    --color-de-texto: #000000;
 }
 
-html, body {
-    background-color: var(--color-de-fondo) ;
+html,
+body {
+    background-color: var(--color-de-fondo);
     font-family: 'Raleway';
     color: var(--color-de-texto);
     line-height: 1;
     overflow-x: hidden;
     width: 100%;
 }
-ol, ul, li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--color-de-link);
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,39 +53,27 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección About*/
 
-section.about{
-
-}
+section.about {}
 
 /*Sección Hobbies*/
 
-section.hobbies{
-    
-}
+section.hobbies {}
 
 /* Experiencia Académica*/
 
-section.academic{
-
-}
+section.academic {}
 
 /* experiencia*/
 
-section.experience{
-
-}
+section.experience {}
 
 /*Contacto*/
 
-section.formcontato{
-
-}
+section.formcontato {}
 
 /*footeer*/
 
-section.footer{
-   
-}
+section.footer {}
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
@@ -89,39 +82,39 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Tablet*/
 @media (min-width: 768px) {
 
-/* Menú */
+    /* Menú */
 
-/*title*/
+    /*title*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
+    /*Hobbies*/
 
-/*Formación Académica*/
+    /*Formación Académica*/
 
-/*Experiencia Profesional*/
+    /*Experiencia Profesional*/
 
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
 
-/*Menu*/
+    /*Menu*/
 
-/*Titulo*/
+    /*Titulo*/
 
-/*Sección sobre mi*/
+    /*Sección sobre mi*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
- 
-/*Formación Académica*/
+    /*Hobbies*/
 
-/*Experiencia Profesional*/
+    /*Formación Académica*/
 
- /*Contacto*/
+    /*Experiencia Profesional*/
 
-/*Footer*/
+    /*Contacto*/
+
+    /*Footer*/
 
 }
