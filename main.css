@@ -3,6 +3,7 @@
 @import url("styles/header.css");
 @import url("styles/profile.css");
 @import url("styles/about.css");
+@import url("styles/skills.css"); 
 
 /*Variables de color*/
 :root {
@@ -17,7 +18,7 @@ body {
     font-family: 'Raleway';
     color: var(--color-de-texto);
     line-height: 1;
-    overflow-x: hidden;
+   /*  overflow-x: hidden; */
     width: 100%;
 }
 
