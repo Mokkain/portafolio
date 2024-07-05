@@ -4,6 +4,7 @@
 @import url("styles/profile.css");
 @import url("styles/about.css");
 @import url("styles/skills.css"); 
+@import url("styles/hobbies.css");
 
 /*Variables de color*/
 :root {
