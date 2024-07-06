@@ -2,7 +2,7 @@
 .about{
     display: flex;
     flex-direction: column;
-    height: 440px;
+    height: 460px;
     padding: 28px;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,7 @@
     max-width: 100%;
     box-sizing: border-box;
     text-align: justify;
+    width: 100%;
 }
 
 .about__container{
@@ -21,7 +22,7 @@
 }
 
 .about__title{
-    margin-bottom: 22px;
+    margin: 10px 0;
     font-size: 22px;
     font-weight: 700;
 }
