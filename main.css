@@ -8,6 +8,7 @@
 @import url("styles/education.css");
 @import url("styles/experience.css");
 @import url("styles/contacto.css");
+@import url("styles/footer.css");
 
 /*Variables de color*/
 :root {
@@ -22,7 +23,7 @@ body {
     font-family: 'Raleway';
     color: var(--color-de-texto);
     line-height: 1;
-   /*  overflow-x: hidden; */
+    scroll-behavior: smooth;
     width: 100%;
 }
 
@@ -41,65 +42,4 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-
-/*footeer*/
-
-section.footer {}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-    /* Menú */
-
-    /*title*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-    /*Menu*/
-
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
-
 }
