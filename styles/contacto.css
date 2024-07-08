@@ -52,14 +52,30 @@
     box-sizing: border-box;
 }
 
+.formulario__campo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .formcontato__input,
 .formcontato__textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+.mensaje-error {
+    display: block;
+    padding: 10px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: red;
+    text-align: start;
 }
 
 .formcontato__boton {
@@ -113,7 +129,7 @@
     }
 
     .formcontato__subtext {
-        text-align: start;
+        text-align: justify;
         font-size: 19px;
         margin-bottom: 20px;
         line-height: 1.5;
@@ -131,15 +147,6 @@
     .formcontato__input,
     .formcontato__textarea {
         max-width: 600px;
-    }
-
-    .mensaje-error {
-        display: block;
-        margin-top: 5px;
-        font-weight: 400;
-        font-style: italic;
-        font-size: .925rem;
-        color: red;
     }
     
 }
