@@ -7,6 +7,7 @@
 @import url("styles/hobbies.css");
 @import url("styles/education.css");
 @import url("styles/experience.css");
+@import url("styles/contacto.css");
 
 /*Variables de color*/
 :root {
@@ -54,10 +55,6 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-
-/*Contacto*/
-
-section.formcontato {}
 
 /*footeer*/
 
